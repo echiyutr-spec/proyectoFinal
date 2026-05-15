@@ -1,0 +1,144 @@
+@font-face{
+    font-family: Lemon;
+    src: url("LEMONMILK-Regular.otf");
+}
+@font-face{
+    font-family: cinzel;
+    src: url(CinzelDecorative-Regular.otf);
+}
+@font-face{
+    font-family: deartone;
+    src: url(Deartone.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.inicio{
+    width: 100%;
+    height: 100vh;
+    background-image: url(foto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;   
+}
+.contenido{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 25px;
+    color: white;
+}
+.nombre{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    transform: translateX(15%);
+    color: white;
+    font-size: 50px;
+    letter-spacing: 50px;
+    font-family: Lemon;
+}
+.contenido h1{
+    font-family: cinzel;
+    font-size: 27px;
+}
+.contenido p{
+    font-family: deartone;
+    font-size: 20px;
+}
+.menu{
+    position: fixed;
+    right: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 210px;
+    padding: 210px 18px;
+    background: rgba(4, 1, 38, 0.78);
+    border: 1px solid rgba(141,191,255,0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    backdrop-filter: blur(12px);
+    box-shadow:
+    0 0 25px rgba(77,166,255,0.18),
+    inset 0 0 18px rgba(255,255,255,0.04);
+    z-index: 100;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: Lemon;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 14px 18px;
+    border-radius: 22px;
+    transition: 0.3s ease;
+}
+
+.menu a:hover,
+.menu a.activo{
+    background: linear-gradient(135deg, #0B1F3A, #1E5F99);
+    color: white;
+    box-shadow: 0 0 18px rgba(77,166,255,0.35);
+    transform: translateX(-8px);
+}
+.encabezado-inicio{
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-350%);
+    text-align: center;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+.encabezado-inicio h1{
+    color: white;
+    font-family: Lemon;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.encabezado-inicio p{
+    color: #B8D8FF;
+    font-family: cinzel;
+    font-size: 6px;
+    margin-top: 6px;
+}
+.footer-inicio{
+    position: absolute;
+
+    bottom: 20px;
+
+    left: 50%;
+
+    transform: translateX(-135%);
+
+    text-align: center;
+
+    background: none;
+
+    border: none;
+
+    z-index: 10;
+}
+
+.footer-inicio p{
+    color: rgba(255,255,255,0.60);
+
+    font-family: cinzel;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+}

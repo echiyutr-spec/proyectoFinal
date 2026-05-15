@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+     <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre mi</a>
+        <a href="Proyector.html">Proyectos</a>
+        <a href="Competencias.html">Competencias</a>
+        <a href="contacto.html" class="activo">Contacto</a>
+    </nav>
+
+    <section id="competencias" class="competencias">
+         <header class="encabezado-inicio">
+        <h1>Portafolio Académico</h1>
+        <p>Ingeniería en Sistemas • Evelyn Chiyut</p>
+    </header>
+    <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p class="texto-contacto">
+        Puedes escribirme para conocer más sobre mis proyectos académicos.
+    </p>
+
+    <div class="contenedor-contacto">
+        <div class="info-contacto">
+            <h3>Información</h3>
+
+            <p><b>Nombre:</b> Evelyn Chiyut</p>
+            <p><b>Carrera:</b> Ingeniería en Sistemas</p>
+            <p><b>Correo:</b> echiyutr@miumg.edu.gt</p>
+        </div>
+    <form class="formulario-contacto" action="https://formsubmit.co/echiyutr@miumg.edu.gt" method="POST">
+    <input type="text" name="Nombre" placeholder="Tu nombre" required>
+    <input type="email" name="Correo" placeholder="Tu correo" required>
+    <textarea name="Mensaje" placeholder="Escribe tu mensaje" required></textarea>
+    <input type="hidden" name="_subject" value="Nuevo mensaje desde mi portafolio">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+    <button type="submit">Enviar mensaje</button>
+    </form>
+    </div>
+</section>
+ <footer class="footer-inicio">
+    <p>
+        © 2026 Evelyn Yazmín Chiyut Raymundo • Ingeniería en Sistemas
+    </p>
+</footer>
+</body>
+</html>
