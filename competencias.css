@@ -190,8 +190,8 @@
 .encabezado-inicio{
     position: absolute;
     top: 25px;
-    left: 50%;
-    transform: translateX(-350%);
+    left: 10%;
+    transform: translateX(-50%);
     text-align: center;
     background: none;
     border: none;

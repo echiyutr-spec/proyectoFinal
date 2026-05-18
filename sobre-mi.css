@@ -146,10 +146,10 @@ body{
     margin-bottom: 8px;
 }
 .encabezado-inicio{
-    position: absolute;
+    position: fixed;
     top: 25px;
-    left: 50%;
-    transform: translateX(-350%);
+    left: 10%;
+    transform: translateX(-50%);
     text-align: center;
     background: none;
     border: none;
@@ -171,13 +171,13 @@ body{
     margin-top: 6px;
 }
 .footer-inicio{
-    position: absolute;
+    position: fixed;
 
     bottom: 20px;
 
-    left: 50%;
+    left: 20%;
 
-    transform: translateX(-135%);
+    transform: translateX(-50%);
 
     text-align: center;
 
