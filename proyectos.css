@@ -229,6 +229,12 @@ body{
     text-shadow:
     0 0 18px rgba(77,166,255,0.35);
 }
+.video-proyecto{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 .encabezado-inicio{
     position: absolute;
     top: 25px;
